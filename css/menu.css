@@ -1,0 +1,15 @@
+.first {
+  font-style: italic;
+}
+
+#menu-table {
+  border-collapse: collapse;
+}
+
+#menu-table, #menu-table td, #menu-table th {
+  border: 1px solid gray;
+}
+
+#menu-table td,  #menu-table th{
+  background-color: #b3d4fc;
+}

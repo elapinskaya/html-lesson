@@ -261,3 +261,51 @@ textarea {
   }
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  position: fixed;
+  background: aquamarine;
+  height: 40px;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.navigation ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation ul li {
+  padding: 0 16px;
+}
+
+.navigation ul li:before {
+  content: '\2764';
+}
+
+.page-block {
+  height: 100vh;
+}
+
+#menu {
+  background: rgba(255, 215, 0, 0.47);
+}
+
+#main {
+  margin-top: 40px;
+  background: #b3d4fc;
+}
+
+#contacts {
+  background: lavender;
+}
